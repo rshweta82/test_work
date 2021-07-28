@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700&display=swap');
+body { 
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    background: #f8f9fa78!important;
+}
+.navbar-light .navbar-brand {
+    font-weight:  800;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff!important;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link{color:  #fff!important;}
+.banner {
+    background-image:url(assets/images/saleBanner.JPG);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.banner-text{
+    text-align: center;
+    padding: 18em;
+    color: #fff;
+}
+button.start_button { 
+    margin-top: 10px;
+   padding: 10px 29px;
+   background: linear-gradient(45deg, black, transparent);
+   color: #fff;
+   outline: 5px auto -webkit-focus-ring-color;
+   text-transform: capitalize;
+ }
+.product_cards{
+    margin: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .card{
+    width: 300px;
+ }
+ .card-img-top{
+    height:  205px;
+ }
+ .product-info{
+    padding: 30px 25px 0!important;
+ }
+.pro-price{
+    padding: 30px 25px!important;
+    display: flex;
+    justify-content: space-between;
+}
+ .pro-price p{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 0!important;
+ }
+ .pro-price span{
+    background: #4ED17B;
+    padding: 2px 4px 4px 8px;
+    border-radius: 5px;
+    width:  50px;
+    height:  40px;
+ }
+ .pro-price img{
+    width: 2.1rem;
+ }
+ .product-info p{
+    font-size:  15px;
+ }
